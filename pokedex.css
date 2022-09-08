@@ -1,0 +1,100 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    display:flex;
+    height: 93vh;
+    flex-direction:column;
+    align-items: center;
+    background:linear-gradient( lightblue, white) ;
+    margin-top:50px;
+}
+    
+
+.pokedex {
+    display:flex;
+    width:100%;
+}
+
+.pok_img{
+    margin-bottom:55%;
+    
+}
+
+.pokimg{
+    position:absolute;
+    height:15% ;
+    margin-bottom:30%;
+    margin-left:35%;
+}
+
+.pok_data{
+    position:absolute;
+    margin-top:23%;
+    margin-right:-8%;
+    text-align: right;
+    font-family: Cambria;
+    font-size:clamp(11px, 5vw, 28px);
+}
+
+.pok_number ,.traco{
+    color:grey
+}
+.pok_name{
+    color:rgb(63, 63, 63);
+}
+
+.buttons{
+    position:absolute;
+    margin-top:110%;
+    margin-right:8%;
+    display:flex;
+    width:70%;
+    justify-content: space-around;
+}
+
+button{
+    padding:3% 14%;
+    background:rgb(40, 40, 40);
+    color:rgb(244, 239, 239);
+    display:flex;
+    align-items: center;
+    font-size:clamp(8px, 5vw, 20px);
+    border-radius: 8px;
+    box-shadow:-4px 4px 0px black
+}
+button:hover{
+    transform: translate(-4px, 4px);
+    box-shadow:4px -4px 0px black;
+}
+
+
+
+.form {
+    display:flex;
+    position:absolute;
+    margin-top:55%;
+    margin-right:10%;
+    width:70%;
+    height: 5%;
+}
+#txtn{
+    text-align: center;
+    border:solid 2px black;
+    border-radius:7px;
+    box-shadow:-4px 4px 0 rgb(111, 111, 111),
+    -4px 4px 10px black; 
+    outline: none;
+    width:100%;
+    height: 100%;
+}
+
+.container{
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+
